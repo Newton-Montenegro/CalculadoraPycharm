@@ -4,12 +4,12 @@ print('+ Adição')
 print('- Subtração')
 print('* Multiplicação')
 print('/ Divisão')
-print('Pressione outra tecla para sair')
+print('Pressione "F" para ENCERRAR o programa!')
 
 
 
 while True:
-    op = input('Qual operação deseja fazer?')
+    op = input('Qual operação deseja fazer?: ')
     if op == '+' or op == '-' or op == '*' or op == '/':
         x = int(input('Digite o primeiro valor'))
         y = int(input('Digite o segundo valor'))
@@ -30,12 +30,10 @@ while True:
         res=x/y
         print('Resultado {} / {} = {}'.format(x, y, res))
         continue
-    elif (op == 'f'):
+    elif (op == 'F'):
         break
     else:
         print('Operação invalida')
 
 
-print('Encerrando o Programa.')
-print ('Thank you for all!')
-print ('Thank you for all two!')
+print('Encerrando a calculadora.')
