@@ -37,3 +37,4 @@ while True:
 
 
 print('Encerrando o Programa.')
+print ('Thank you for all!')
